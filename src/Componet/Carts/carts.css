@@ -1,0 +1,38 @@
+.cart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cart-items {
+  margin-top: 100px;
+  width: 70%;
+}
+.no-product {
+  text-align: center;
+  color: red;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.cart-item img {
+  width: 100px;
+  height: 100px;
+}
+.total {
+  border: solid 1px gray;
+  height: max-content;
+  width: 25%;
+  padding: 10px;
+}
+.total div {
+  display: flex;
+  justify-content: space-between;
+}
+.total div h3 {
+  color: black;
+}

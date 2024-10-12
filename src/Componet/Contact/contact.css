@@ -1,0 +1,29 @@
+.contact {
+  display: flex;
+  gap: 20px;
+  border: dotted 1px darkgray;
+  padding: 10px;
+}
+.map {
+  width: 50%;
+  height: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 10px;
+}
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  outline: none;
+  border: solid 1px lightgray;
+}
+form textarea {
+  padding: 7px;
+  border: none;
+  outline: none;
+  border: solid 1px lightgray;
+}

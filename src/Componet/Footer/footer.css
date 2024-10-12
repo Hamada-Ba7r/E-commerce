@@ -1,0 +1,114 @@
+footer {
+  margin-top: 100px;
+  background-color: #232b37;
+  height: 90vh;
+  padding: 10px;
+}
+footer hr {
+  color: white;
+  font-size: 10px;
+  font-weight: bolder;
+}
+footer > * {
+  margin-bottom: 40px;
+}
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+.top-footer h2 {
+  font-size: 25px;
+}
+.top-footer h4 {
+  font-size: 17px;
+  color: gray;
+}
+.left-ico {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  gap: 10px;
+}
+.left-ico .i {
+  font-size: 30px;
+}
+.top-footer input {
+  padding: 7px;
+  width: 200px;
+  outline: none;
+}
+.top-footer button {
+  padding: 7px;
+  border: none;
+}
+.midel-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  text-align: center;
+}
+.info p {
+  width: 300px;
+  line-height: 1.5;
+}
+.coshal-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.coshal-icon h3{
+  color: white;
+}
+.coshal-icon div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.coshal-icon .a {
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.coshal-icon .a:hover {
+  color: blue;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.social div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.social div a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  transition: all 1s ease;
+}
+.social div a:hover {
+  color: blue;
+}
+.button-footer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.button-footer p {
+  font-size: 20px;
+}

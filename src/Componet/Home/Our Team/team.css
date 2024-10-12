@@ -1,0 +1,64 @@
+.teams {
+  width: 95%;
+  margin: auto;
+}
+.teams .title {
+  margin: 100px auto;
+}
+.team {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.caracter {
+  padding: 10px;
+  width: 24%;
+}
+.caracter > * {
+  margin-bottom: 20px;
+}
+.caracter img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.caracter h4 {
+  color: gray;
+  font-size: 20px;
+}
+.icon-midey {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.face {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: 1s all;
+}
+.insta {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: 1s all;
+}
+.twitt {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: 1s all;
+}
+.face:hover {
+  background-color: blue;
+  color: white;
+}
+.twitt:hover {
+  background-color: blue;
+  color: white;
+}
+.insta:hover {
+  background-color: blue;
+  color: white;
+}

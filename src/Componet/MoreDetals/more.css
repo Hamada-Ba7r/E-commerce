@@ -1,0 +1,13 @@
+.prodact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+}
+.prodact img {
+  width: 400px;
+}
+.prodact p {
+  width: 400px;
+}
